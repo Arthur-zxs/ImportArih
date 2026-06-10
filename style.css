@@ -1,10 +1,73 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.header{
-    display: flex;
-   
-
+body {
+  background-color: rgba(78, 75, 92, 0.021);
+}
+.img-devdocs {
+  display: flex;
+  position: absolute;
+  padding: 20px;
+  margin-left: -1100px;
+  align-items: center;
+  justify-content: center;
+}
+.header-info {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 251, 252);
+}
+.nav-links {
+  display: flex;
+  gap: 20px; /* espaço entre os itens */
+  list-style: none; /* remove as bolinhas */
+}
+.nav-links :focus {
+  background-color: rgb(243, 255, 255);
+}
+.nav-links li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+.nav-bar {
+  display: flex;
+  gap: 20px;
+}
+input {
+  border-radius: 5px;
+  width: 120px;
+  height: 20px;
+  border-color: darkgrey;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blueviolet;
+  height: 300px;
+  width: 300px;
+  margin-top: 60px;
+  margin: 60px;
+  border-radius: 8px;
+}
+.btn-reservar {
+  display: flex;
+  margin-top: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
 }
